@@ -8,5 +8,5 @@ do
 	echo "Building $VERSION"
 	./build-docker.sh "$VERSION"
 	./push-dockerhub.sh "$VERSION"
-	docker rmi "zouzias/boost:$VERSION"
+	docker rmi "ohmin839/boost:$VERSION"
 done

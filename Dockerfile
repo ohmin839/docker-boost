@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-MAINTAINER Anastasios Zouzias <my_last_name@gmail.com>
+MAINTAINER ohmin839
 
 ARG DEBIAN_FRONTEND=noninteractive
 

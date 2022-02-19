@@ -7,7 +7,7 @@ if [ $# -eq 0 ]
     exit
 fi
 
-ORG="zouzias"
+ORG="ohmin839"
 BOOST_VERSION=$1
 docker run -ti "${ORG}/boost:${BOOST_VERSION}" /bin/bash
 
